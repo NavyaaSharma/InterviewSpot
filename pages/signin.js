@@ -67,6 +67,7 @@ const Signin = ({ router }) => {
                                     {/* <div class="line"></div> */}
                                 </div>
                                 <SigninComponent />
+                                <div class="row mb-4 px-3"> <small class="font-weight-bold"><a className="newa" href="/auth/password/forgot" style={{ color: 'red' }} class="text-danger">Forgot Password</a></small> </div>
                                 <div class="row mb-4 px-3"> <small class="font-weight-bold">Don't have an account? <a className="newa" href="/signup" style={{ color: 'red' }} class="text-danger">SignUp</a></small> </div>
                             </div>
                         </div>
